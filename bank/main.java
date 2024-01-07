@@ -1,12 +1,9 @@
-import java.io.File;
+package bank;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-// import Project.ZBI.Bank.Customers;
 
 public class main {
     static void HomeMenu() {

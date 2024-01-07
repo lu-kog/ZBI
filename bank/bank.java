@@ -1,14 +1,14 @@
+package bank;
+
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.*;
-import java.io.*;
 import java.io.Console;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import org.mindrot.jbcrypt.*; // for hashing the passwd
 import java.io.File;
-import java.lang.*;
 
 class Bank {
     static String Branch = "Mathalamparai";

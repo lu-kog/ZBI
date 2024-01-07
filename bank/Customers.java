@@ -1,3 +1,6 @@
+package bank;
+
+
 import java.util.*;
 import java.io.*;
 import java.time.format.DateTimeFormatter;
@@ -20,7 +23,7 @@ public class Customers {
     boolean Active;
     LocalDate OpeningDate;
     String AccountType;
-    DebitCard debitCard;
+    public DebitCard debitCard;
     Loan Loaninfo = new Loan();
 
     public void loginATM(String cusID) throws Exception {
