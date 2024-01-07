@@ -1,16 +1,14 @@
-
-// package ATM;
+package atm;
 import java.util.*;
 import java.io.*;
 import java.time.*;
 import org.mindrot.jbcrypt.*; // for hashing the passwd
 import java.util.regex.Pattern;
 
-// import Bank.*;
+ import bank.*;
 
-// Class representing an ATM
+ 
 public class MainATM {
-
     
     static Scanner cin = new Scanner(System.in);
     Customers currentUser = new Customers();
